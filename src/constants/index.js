@@ -1,28 +1,29 @@
 import {
   mobile,
   backend,
-  creator,
+  kotlin,
+  python,
+  arduino,
   web,
   javascript,
-  typescript,
   html,
   css,
+  zino,
   reactjs,
   redux,
   tailwind,
   nodejs,
   mongodb,
   git,
-  figma,
   docker,
-  meta,
-  starbucks,
-  tesla,
-  shopify,
+  esi,
+  bto,
   carrent,
   jobit,
   tripguide,
   threejs,
+  relay,
+  athmane,
 } from "../assets";
 
 export const navLinks = [
@@ -55,7 +56,7 @@ const services = [
   },
   {
     title: "Kotlin Developer",
-    icon: mobile,
+    icon: kotlin,
   },
 ];
 
@@ -71,10 +72,6 @@ const technologies = [
   {
     name: "JavaScript",
     icon: javascript,
-  },
-  {
-    name: "TypeScript",
-    icon: typescript,
   },
   {
     name: "React JS",
@@ -105,94 +102,107 @@ const technologies = [
     icon: git,
   },
   {
-    name: "figma",
-    icon: figma,
-  },
-  {
     name: "docker",
     icon: docker,
+  },
+  {
+    name: "Python",
+    icon: python,
+  },
+  {
+    name: "arduino",
+    icon: arduino,
   },
 ];
 
 const experiences = [
   {
-    title: "React.js Developer",
-    company_name: "Starbucks",
-    icon: starbucks,
+    title: "Node JS and Express JS Developer",
+    company_name: "ESI",
+    icon: esi,
     iconBg: "#383E56",
-    date: "March 2020 - April 2021",
+    date: "April 2021 - July 2021",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      "Leader of the team.",
+      "Collaborating with a team of students to develop a web app for house demanding management.",
+      "Implementing back-end using Node JS and Express JS.",
+      "Participating in code reviews and providing constructive feedback to other teammates.",
     ],
   },
   {
-    title: "Flutter Developer",
-    company_name: "Tesla",
-    icon: tesla,
+    title: "Full Stack Developer",
+    company_name: "Free lance",
+    icon: bto,
     iconBg: "#E6DEDD",
-    date: "Jan 2021 - Feb 2022",
+    date: "Jan 2022 - Feb 2022",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      "Developing a commercial website for beauty touch store at Oran.",
+      "Implementing the website using HTML, CSS and Javascript.",
+      "Doing all the development process from Studying the needs to the deployment.",
     ],
   },
   {
-    title: "Web Developer",
-    company_name: "Shopify",
-    icon: shopify,
+    title: "React JS Developer",
+    company_name: "Easy Relay",
+    icon: relay,
     iconBg: "#383E56",
-    date: "Jan 2022 - Jan 2023",
+    date: "July 2022 - October 2022",
     points: [
       "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
+      "Collaborating with my partner and a developer from the company to create high quality product.",
       "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
     ],
   },
   {
-    title: "Full stack Developer",
-    company_name: "Meta",
-    icon: meta,
+    title: "Kotlin developer",
+    company_name: "ESI",
+    icon: esi,
     iconBg: "#E6DEDD",
-    date: "Jan 2023 - Present",
+    date: "Feb 2023 - June 2023",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      "Developing a food delivery app using Kotlin as a language.",
+      "Participating in code reviews and providing constructive feedback to my partner.",
     ],
   },
+  {
+    title: "IOT and hardware",
+    company_name:"ESI",
+    icon: esi,
+    iconBg: "#E6DEDD",
+    date: "March 2023 - June 2023",
+    points: [
+      "Developing a smart vending machine using Raspberry PI and Python.",
+      "Collaborating with a team of 11 students to implement this project.",
+      "Designing some Pieces using 3D modeling Tools like Fusion360 and SolidWorks.",
+      "Participating in code reviews and providing feedback to other teammates.",
+    ]
+  }
 ];
 
 const testimonials = [
   {
     testimonial:
-      "I thought it was impossible to make a website as beautiful as our product, but Rick proved me wrong.",
-    name: "Sara Lee",
-    designation: "CFO",
-    company: "Acme Co",
-    image: "https://randomuser.me/api/portraits/women/4.jpg",
+      "Nice man, polite, kind and most of all a great developer.",
+    name: "Athmane Doumi",
+    designation: "Back end developer",
+    company: "Maystro delivery",
+    image: athmane,
   },
   {
     testimonial:
-      "I've never met a web developer who truly cares about their clients' success like Rick does.",
-    name: "Chris Brown",
-    designation: "COO",
-    company: "DEF Corp",
-    image: "https://randomuser.me/api/portraits/men/5.jpg",
+      "I thought a website can never help me increase my sales but what this man did has really changed my life to the better.",
+    name: "Mohammed",
+    designation: "CEO",
+    company: "Beauty touch",
+    image: "",
   },
   {
     testimonial:
-      "After Rick optimized our website, our traffic increased by 50%. We can't thank them enough!",
-    name: "Lisa Wang",
-    designation: "CTO",
-    company: "456 Enterprises",
-    image: "https://randomuser.me/api/portraits/women/6.jpg",
+      "Knowing Sid Ahmed is a tresor but Working with him is just the joy of life.",
+    name: "Zineddine Brahami",
+    designation: "Web developer",
+    company: "Web Rocket",
+    image: zino,
   },
 ];
 
