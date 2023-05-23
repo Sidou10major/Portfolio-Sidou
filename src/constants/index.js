@@ -18,12 +18,12 @@ import {
   docker,
   esi,
   bto,
-  carrent,
-  jobit,
+  BO,
   tripguide,
   threejs,
   relay,
   athmane,
+  food,
 } from "../assets";
 
 export const navLinks = [
@@ -208,30 +208,30 @@ const testimonials = [
 
 const projects = [
   {
-    name: "Car Rent",
+    name: "Food_Recipe_Website",
     description:
-      "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+      "Website developed using PHP that has a client part and an admin part. The website is developed using MVC architecture.",
     tags: [
       {
-        name: "react",
+        name: "PHP",
         color: "blue-text-gradient",
       },
       {
-        name: "mongodb",
+        name: "MVC",
         color: "green-text-gradient",
       },
       {
-        name: "tailwind",
+        name: "MYSQL",
         color: "pink-text-gradient",
       },
     ],
-    image: carrent,
-    source_code_link: "https://github.com/",
+    image: food,
+    source_code_link: "https://github.com/Sidou10major/dzcook",
   },
   {
-    name: "Job IT",
+    name: "Easy-Relay back-office",
     description:
-      "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
+      "Web application to help easy relay board membres to follow their workflow.",
     tags: [
       {
         name: "react",
@@ -242,33 +242,12 @@ const projects = [
         color: "green-text-gradient",
       },
       {
-        name: "scss",
+        name: "tailwind",
         color: "pink-text-gradient",
       },
     ],
-    image: jobit,
-    source_code_link: "https://github.com/",
-  },
-  {
-    name: "Trip Guide",
-    description:
-      "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
-    tags: [
-      {
-        name: "nextjs",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "supabase",
-        color: "green-text-gradient",
-      },
-      {
-        name: "css",
-        color: "pink-text-gradient",
-      },
-    ],
-    image: tripguide,
-    source_code_link: "https://github.com/",
+    image: BO,
+    source_code_link: "https://github.com/Sidou10major/Easy-Relay-Back-Office",
   },
 ];
 

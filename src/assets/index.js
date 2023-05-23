@@ -27,12 +27,16 @@ import jobit from "./jobit.png";
 import tripguide from "./tripguide.png";
 import athmane from "./athmane.jpg";
 import zino from "./zino.jpg";
+import food from "./food.jpg";
+import BO from "./BO.png";
 export {
   logo,
   github,
   menu,
+  food,
   athmane,
   close,
+  BO,
   zino,
   mobile,
   backend,
@@ -52,8 +56,6 @@ export {
   docker,
   esi,
   bto,
-  carrent,
-  jobit,
   tripguide,
   threejs,
   relay,

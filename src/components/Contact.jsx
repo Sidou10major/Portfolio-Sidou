@@ -132,7 +132,4 @@ const Contact = () => {
     </div>
   );
 };
-//service_pv3bw8h
-//template_k5920fq
-//vBwRfm4kabcxSuBJy
 export default SectionWrapper(Contact, "contact");
