@@ -19,7 +19,7 @@ import {
   esi,
   bto,
   BO,
-  tripguide,
+  delivery,
   threejs,
   relay,
   athmane,
@@ -249,6 +249,26 @@ const projects = [
     image: BO,
     source_code_link: "https://github.com/Sidou10major/Easy-Relay-Back-Office",
   },
+  {
+    name: "Food delivery app",
+    description: "Mobile app to order food from different restaurants and track the command until its arriving.",
+    tags: [
+      {
+        name:"Kotlin",
+        color:"blue-text-gradient",
+      },
+      {
+        name:"restapi",
+        color:"green-text-gradient",
+      },
+      {
+        name:"Firebase",
+        color:"pink-text-gradient",
+      },
+    ],
+    image: delivery,
+    source_code_link: "https://github.com/Sidou10major/Food-delivery-app"
+  }
 ];
 
 export { services, technologies, experiences, testimonials, projects };

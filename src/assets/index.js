@@ -24,6 +24,7 @@ import bto from "./company/bto.png";
 import relay from "./company/relay.png";
 import carrent from "./carrent.png";
 import jobit from "./jobit.png";
+import delivery from "./food_delivery_app.jpg";
 import tripguide from "./tripguide.png";
 import athmane from "./athmane.jpg";
 import zino from "./zino.jpg";
@@ -59,4 +60,5 @@ export {
   tripguide,
   threejs,
   relay,
+  delivery,
 };
